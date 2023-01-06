@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="/css/detalle-producto-style.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-nombre">
+        <i class="fa-solid fa-person-running logo-header"></i>
+        <p class="nombre-header">MULTIDEPORTE</p>
+      </div>
+      <div class="categorias-header">
+        <button class="categoria-header-btn">
+          <p class="categoria-header-nombre">Hombre</p>
+          <i class="fa-solid fa-angle-down"></i>
+        </button>
+        <button class="categoria-header-btn">
+          <p class="categoria-header-nombre">Mujer</p>
+          <i class="fa-solid fa-angle-down"></i>
+        </button>
+      </div>
+      <div class="search-container">
+        <form action="">
+          <input
+            type="search"
+            placeholder="Buscar.."
+            name="search"
+            class="search"
+          />
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        </form>
+      </div>
+      <div class="usuario-carrito">
+        <!-- <p>Mi Usuario</p> -->
+        <i class="fa-solid fa-circle-user icon-header-usario"></i>
+        <i class="fa-solid fa-cart-shopping icon-header-carrito"></i>
+      </div>
+    </header>
+
+    <main class="producto">
+      <div class="img-producto-container">
+        <button class="img-producto-arrows">
+          <i class="fa-solid fa-angle-left img-producto-arrow-izq"></i>
+        </button>
+        <img src="/imgs/remera-ejemplo1.webp" class="imagen-producto" />
+        <button class="img-producto-arrows">
+          <i class="fa-solid fa-angle-right img-producto-arrow-der"></i>
+        </button>
+      </div>
+      <div class="info-producto">
+        <h2 class="nombre-producto">REMERA OWN THE RUN</h2>
+        <p class="descripcion-producto">
+          Este producto fue hecho con Primegreen, una serie de materiales
+          reciclados de alto desempeño, sin usar poliéster virgen.
+        </p>
+        <div>
+          <p class="precio">$12.999</p>
+          <p class="cuotas">Paga hasta 3 cuotas sin interés</p>
+        </div>
+        <form class="talle">
+          <label>Talle:</label>
+          <select class="main-select">
+            <option value="s">S</option>
+            <option value="m">M</option>
+            <option value="l">L</option>
+            <option value="xl">XL</option>
+          </select>
+        </form>
+        <div class="guia-talles">
+          <a href="#">Guia de Talles</a>
+        </div>
+        <form class="cantidad">
+          <label>Cantidad:</label>
+          <select class="main-select">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </form>
+        <button class="agregar-carrito-btn">Agregar al carrito</button>
+        <div class="pago-envio">
+          <div>
+            <i class="fa-solid fa-credit-card"></i>
+            <a href="#" class="metodos-pago"> Métodos de Pago</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-truck-fast"></i>
+            <a href="#" class="metodos-envio">Métodos de Envío</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <article class="descripcion-detalles">
+      <h3>Descripción del producto</h3>
+      <p>
+        Tu guardarropa está lleno de remeras de running que nunca funcionaron
+        como querías. Unas muy gruesas, otras muy delgadas. Algunas demasiado
+        ajustadas o demasiado holgadas. En fin, pero la que siempre terminas
+        usando es esta remera adidas Own the Run. Hecha con materiales
+        reciclados como parte de nuestro compromiso por alcanzar la
+        sostenibilidad, es una prenda que mantiene tu cuerpo cómodo durante tus
+        entrenamientos largos los domingos o los 5K que corrés a la hora del
+        almuerzo entre semana. No te contentes con la ropa que no te queda bien.
+      </p>
+      <h3>Detalles del producto</h3>
+      <ul class="detalles-ul">
+        <li>Corte clásico</li>
+        <li>Cuello redondo</li>
+        <li>Tejido de punto jersey 100 % algodón</li>
+        <li>Mangas cortas</li>
+        <li>Color del artículo: Yellow</li>
+        <li>Número de artículo: GM3248</li>
+      </ul>
+    </article>
+
+    <aside class="productos-similares">
+      <h3>Productos Similares</h3>
+      <div class="productos-similares-container">
+        <button class="productos-similares-arrows">
+          <i class="fa-solid fa-angle-left productos-similares-arrow-izq"></i>
+        </button>
+        <div class="producto-similar">
+          <img src="/imgs/remera-ejemplo2.webp" class="img-producto-similar" />
+          <p class="nombre-producto-similar">REMERA ESSENTIALS LOGO PEQUEÑO</p>
+          <p class="precio-producto-similar">$7.499</p>
+        </div>
+        <div class="producto-similar">
+          <img src="/imgs/remera-ejemplo3.webp" class="img-producto-similar" />
+          <p class="nombre-producto-similar">REMERA ESSENTIALS LOGO GRANDE</p>
+          <p class="precio-producto-similar">$8.499</p>
+        </div>
+        <div class="producto-similar">
+          <img src="/imgs/remera-ejemplo4.webp" class="img-producto-similar" />
+          <p class="nombre-producto-similar">REMERA ADIDAS MANGAS LARGAS</p>
+          <p class="precio-producto-similar">$12.999</p>
+        </div>
+        <button class="productos-similares-arrows">
+          <i class="fa-solid fa-angle-right productos-similares-arrow-der"></i>
+        </button>
+      </div>
+    </aside>
+
+    <footer>
+      <div class="border-top"></div>
+      <div class="footer-container">
+        <div class="seccion-footer">
+          <div class="nombre-redes-footer">
+            <div class="logo-nombre-footer">
+              <i class="fa-solid fa-person-running logo-footer"></i>
+              <h2>MULTIDEPORTE</h2>
+            </div>
+            <div class="iconos-footer-container">
+              <i class="fa-brands fa-square-instagram iconos-footer"></i>
+              <i class="fa-brands fa-square-facebook iconos-footer"></i>
+              <i class="fa-brands fa-square-twitter iconos-footer"></i>
+            </div>
+          </div>
+        </div>
+        <div class="seccion-footer">
+          <h3>Contacto</h3>
+          <ul type="none">
+            <li>Teléfono</li>
+            <li>E-mail</li>
+            <li>Dirección</li>
+            <li>Quiénes somos</li>
+          </ul>
+        </div>
+        <div class="seccion-footer">
+          <h3>Ayuda</h3>
+          <ul type="none">
+            <li>Cambios y devoluciones</li>
+            <li>Métodos de envío</li>
+            <li>Promociones</li>
+            <li>Guía de talles</li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">© 2022 Copyright | Todos los derechos reservados</p>
+    </footer>
+  </body>
+</html>

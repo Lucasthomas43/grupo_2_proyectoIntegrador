@@ -1,0 +1,22 @@
+{
+  "name": "grupo_2_proyectointegrador",
+  "version": "1.0.0",
+  "description": "<h1>readme proyecto final grupo 2<h2>",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucasthomas43/grupo_2_proyectoIntegrador.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucasthomas43/grupo_2_proyectoIntegrador/issues"
+  },
+  "homepage": "https://github.com/Lucasthomas43/grupo_2_proyectoIntegrador#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
