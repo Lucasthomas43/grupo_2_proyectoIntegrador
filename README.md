@@ -1,4 +1,4 @@
-<h1>readme proyecto final grupo 2<h2>
+<h1>README PROYECTO FINAL GRUPO 2<h2>
 
 <p>
 Vamos a hacer un e-commerce de venta de ropa deportiva. Apuntamos a todos las personas adultas que quieran comprar este tipo de indumentaria. Entre nuestros productos se van a encontrar:
@@ -20,3 +20,6 @@ Las paginas en las que nos inspiramos y tomamos algunas ideas fueron, entre otra
   <li>Puma</li>
   <li>Amazon</li>
 </ul>
+
+<h3>Enlace al Trello:</h3>
+<p>https://trello.com/b/piRRu6U8/proyecto-integrador</p>
