@@ -11,7 +11,13 @@ app.get("/detalle-producto", (req, res) => {
   res.sendFile(path.join(__dirname, "./views/detalle-producto.html"));
 });
 
+<<<<<<< HEAD
 
 app.get("/login", (req, res) => {
   res.sendFile(path.join(__dirname, "./views/login.html"));
 });
+=======
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "./views/home-page.html"));
+});
+>>>>>>> ea1ca6e (boceto html de pagina home)
