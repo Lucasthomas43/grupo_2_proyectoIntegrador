@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: "Mukta", sans-serif;
+  }
+
+  body {
+    background-color: #f8f9fa;
+  }
+
+  header {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(95, 168, 211, 0.7);
+    margin-bottom: 45px;
+    position: flex;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .logo-nombre {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo-header {
+    font-size: 40px;
+    transform: rotate(25deg);
+  }
+  
+  .nombre-header {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  .categorias-header {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .categoria-header-btn {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-size: inherit;
+  }
+  
+  .categoria-header-nombre {
+    margin-right: 5px;
+  
+    font-weight: 600;
+  }
+  
+  .search-container {
+    width: 25%; 
+    position: relative;
+  }
+  
+  .search {
+    width: 100%;
+    height: 30px;
+  
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .search-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 92%;
+    top: 61%;
+    transform: translateY(-50%);
+  }
+  
+  .usuario-carrito {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .icon-header-usario {
+    font-size: 30px;
+    margin-left: 0px;
+  }
+  
+  .icon-header-carrito {
+    font-size: 25px;
+  }
+
+  .register{
+    width: 92%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #ebebeb;
+    border-color: #ebebeb;
+    padding-top: 20px;
+    margin: 50px;
+    
+}
+
+.register h4{
+    font-size: 25px;
+}
+
+h2 {
+    display: flex;
+    font-size: 40px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold}
+
+h3{
+    font-size: 20px;
+}
+
+h6{
+    font-size: 15px;
+}
+
+
+input[type="email" i] {
+    padding: 1px 2px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+input[type="password" i] {
+    padding: 1px 2px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+input[type="text" i] {
+    padding: 1px 2px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+input[type="date" i] {
+    align-items: center;
+    display: inline-flex;
+    font-family: monospace;
+    padding-inline-start: 1px;
+    cursor: default;
+    overflow: hidden;
+    padding: 5px;
+}
+
+input[type="submit" i] {
+    align-items: center;
+    display: inline-flex;
+    font-family: monospace;
+    padding-inline-start: 1px;
+    cursor: default;
+    overflow: hidden;
+    padding: 3px;
+    background-color: aqua;
+    font-size: 15px;
+}
+
+label[for="birth_date" i] {
+    font-size: 20px;
+}
+
+a:-webkit-any-link {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 28px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+  footer {
+    background-color: rgb(95, 168, 211, 0.7);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  
+    padding-top: 35px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  
+    padding-top: 55px;
+  }
+  
+  .seccion-footer {
+    width: 30%;
+    margin-bottom: 55px;
+  }
+  
+  .logo-nombre-footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .logo-footer {
+    font-size: 35px;
+    transform: rotate(25deg);
+  }
+  
+  .nombre-redes-footer {
+    width: 80%;
+    text-align: center;
+  }
+  
+  .nombre-redes-footer h2 {
+    font-size: 25px;
+  
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  .iconos-footer-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .iconos-footer {
+    font-size: 30px;
+  }
+  
+  .seccion-footer h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  
+  .seccion-footer li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .border-top {
+    width: 80%;
+    border-top: 1px solid hsla(210, 17%, 98%, 0.5);
+  
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .copyright {
+    width: 80%;
+    border-top: 1px solid hsla(210, 17%, 98%, 0.5);
+    text-align: center;
+    color: hsla(210, 17%, 98%, 0.6);
+  
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
