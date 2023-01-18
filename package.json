@@ -4,7 +4,7 @@
   "description": "<h1>readme proyecto final grupo 2<h2>",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
